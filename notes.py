@@ -45,3 +45,23 @@
 #print("\n") # newline
 #print("\t") # tab
 #print("\\") # \
+num1=100
+num2=75
+num3=967
+
+avg=(num1+num2+num3)/3
+print(f"Average:{avg}")
+print(avg)
+print("Average ", avg)
+print("Averrage " +str(avg))
+
+beds=4
+bath=4
+address="123 Cool Ln"
+city="Folsom"
+zip=77777
+rent=8000
+print(f"House for rent at {address} in {city} ({zip}).")
+print(f"\t{beds} bedrooms, {bath} bathrooms.")
+print(f"\tRent is ${rent}/month.")
+
